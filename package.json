@@ -1,0 +1,15 @@
+{
+  "name": "orbit-map-experiment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Peter Brandt <peter.m.brandt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify index.js > bundle.js",
+    "start": "budo index.js:bundle.js --live"
+  },
+  "dependencies": {
+    "budo": "^10.0.3",
+    "proj4leaflet": "^1.0.1"
+  }
+}
